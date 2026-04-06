@@ -1,0 +1,50 @@
+[
+  {
+    "type": "function",
+    "name": "distribute",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "setShares",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      {
+        "name": "treasuryBps",
+        "type": "uint16"
+      },
+      {
+        "name": "stakingBps",
+        "type": "uint16"
+      },
+      {
+        "name": "incentivesBps",
+        "type": "uint16"
+      },
+      {
+        "name": "burnBps",
+        "type": "uint16"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "event",
+    "name": "FeesDistributed",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "uint256",
+        "indexed": false
+      }
+    ],
+    "anonymous": false
+  }
+]
