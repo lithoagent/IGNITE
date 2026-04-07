@@ -1,8 +1,8 @@
-# Fee Router (updated)
+# Fee Router
 
 The fee router is the economic distribution hub of Ignite.
 
-## Responsibilities
+## Responsibilities (updated)
 
 - collect trading fees
 - route treasury share
