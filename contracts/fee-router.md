@@ -1,4 +1,4 @@
-# Fee Router (updated)
+# Fee Router
 
 The fee router is the economic distribution hub of Ignite.
 
